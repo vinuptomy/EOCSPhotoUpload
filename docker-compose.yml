@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  iiasa.eocs.photomicroservice:
+    image: ${DOCKER_REGISTRY-}iiasaeocsphotomicroservice
+    build:
+      context: .
+      dockerfile: IIASA.EOCS.PhotoMicroService/Dockerfile
