@@ -11,10 +11,10 @@ namespace IIASA.EOCS.PhotoMicroService.Models
         public int Id { get; set; }
         public string FileName { get; set; }
         public string FilePath { get; set; }
-        public string DeviceName { get; set; }
-        public string Description { get; set; }
+        public string DeviceName { get; set; }        
         public int DirectionTypeId { get; set; }
         public int LandCategoryId { get; set; }
+        public string Description { get; set; }
 
     }
 }
